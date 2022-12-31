@@ -2,14 +2,17 @@
   "name": "powershell-snippets",
   "displayName": "PowerShell Snippets",
   "description": "A snippet for PowerShell",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "repository": "https://github.com/vin-liberty/powershell-snippets",
+  "license": "The Unlicense",
+  "publisher": "vin-liberty",
   "engines": {
     "vscode": "^1.5.0"
   },
   "categories": [
     "Snippets"
   ],
-  "icon": "./img/PowerShellLogo.png",
+  "icon": "img/PowerShellLogo.png",
   "bugs": {
     "email": "zbvin@foxmail.com"
   },
