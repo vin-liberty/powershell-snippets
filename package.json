@@ -1,0 +1,28 @@
+{
+  "name": "powershell-snippets",
+  "displayName": "PowerShell Snippets",
+  "description": "A snippet for PowerShell",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "./img/PowerShellLogo.png",
+  "bugs": {
+    "email": "zbvin@foxmail.com"
+  },
+  "keywords": [
+    "powershell",
+    "snippet"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "powershell",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,716 @@
+{
+    "Add-Content: Adds content to the specified items, such as adding words to a file":{
+        "prefix": "ac",
+        "body": [
+            "Add-Content"
+        ]
+    },
+    "Get-Content: Gets the content of the item at the specified location": {
+        "prefix": ["cat","gc","type"],
+        "body": [
+            "Get-Content "
+        ]
+    },
+    "Set-Location: Sets the current working location to a specified location": {
+        "prefix": ["cd","chdir","sl"],
+        "body": [
+            "Set-Location"
+        ]
+    },
+    "ConvertFrom-String: ": {
+        "prefix": "CFS",
+        "body": [
+            "ConvertFrom-String"
+        ]
+    },
+    "Clear-Content: Deletes the contents of an item, but does not delete the item":{
+        "prefix": "clc",
+        "body": [
+            "Clear-Content"
+        ]
+    },
+    "Clear-Host: Clears the display in the host program": {
+        "prefix": ["clear","cls"],
+        "body": [
+            "Clear-Host"
+        ]
+    },
+    "Clear-History: Deletes entries from the PowerShell session command history": {
+        "prefix": "clhy",
+        "body": [
+            "Clear-History"
+        ]
+    },
+    "Clear-Item: Clears the contents of an item, but does not delete the item": {
+        "prefix": "cli",
+        "body": [
+            "Clear-Item"
+        ]
+    },
+    "Clear-ItemProperty: Clears the value of a property but does not delete the property": {
+        "prefix": "clp",
+        "body": [
+            "Clear-ItemProperty"
+        ]
+    },
+    "Clear-Variable: Deletes the value of a variable": {
+        "prefix": "clv",
+        "body": [
+            "Clear-Variable"
+        ]
+    },
+    "Connect-PSSession: Reconnects to disconnected sessions": {
+        "prefix": "cnsn",
+        "body": [
+            "Connect-PSSession"
+        ]
+    },
+    "Compare-Object: Compares two sets of objects": {
+        "prefix": ["compare","diff"],
+        "body": [
+            "Compare-Object"
+        ]
+    },
+    "Copy-Item: Copies an item from one location to another": {
+        "prefix": ["cp","copy"],
+        "body": [
+            "Copy-Item "
+        ]
+    },
+    "Copy-ItemProperty: Copies a property and value from a specified location to another location": {
+        "prefix": "cpp",
+        "body": [
+            "Copy-ItemProperty"
+        ]
+    },
+    "Invoke-WebRequest: Gets content from a web page on the internet": {
+        "prefix": ["curl","iwr","wget"],
+        "body": [
+            "Invoke-WebRequest"
+        ]
+    },
+    "Convert-Path: Converts a path from a PowerShell path to a PowerShell provider path": {
+        "prefix": "cvpa",
+        "body": [
+            "Convert-Path"
+        ]
+    },
+    "Disable-PSBreakpoint: Disables the breakpoints in the current console": {
+        "prefix": "dbp",
+        "body": [
+            "Disable-PSBreakpoint"
+        ]
+    },
+    "Remove-Item: Deletes the specified items including files and folders": {
+        "prefix": ["del","erase","rd","ri","rm","rmdir"],
+        "body": [
+            "Remove-Item "
+        ]
+    },
+    "Get-ChildItem: Gets the items and child items in one or more specified locations": {
+        "prefix": ["ls","dir","gci"],
+        "body": [
+            "Get-ChildItem"
+        ]
+    },
+    "Disconnect-PSSession: Disconnects from a session": {
+        "prefix": "dnsn",
+        "body": [
+            "Disconnect-PSSession"
+        ]
+    },
+    "Enable-PSBreakpoint: Enables the breakpoints in the current console": {
+        "prefix": "ebp",
+        "body": [
+            "Enable-PSBreakpoint"
+        ]
+    },
+    "Write-Output: Writes the specified objects to the pipeline or displays the objects in the console": {
+        "prefix": ["echo","write"],
+        "body": [
+            "Write-Output"
+        ]
+    },
+    "Write-Host: Writes customized output to a host": {
+        "prefix": "wh",
+        "body": [
+            "Write-Host"
+        ]
+    },
+    "Write-Error: Writes an object to the error stream": {
+        "prefix": ["error"],
+        "body": [
+            "Write-Error"
+        ]
+    },
+    "Write-Warning: Writes a warning message": {
+        "prefix": ["warning"],
+        "body": [
+            "Write-Warning"
+        ]
+    },
+    "Write-Debug: Writes a debug message to the console": {
+        "prefix": ["debug"],
+        "body": [
+            "Write-Debug"
+        ]
+    },
+    "Read-Host: Reads a line of input from the console": {
+        "prefix": ["read"],
+        "body": [
+            "Read-Host"
+        ]
+    },
+    "Export-Alias: Exports information about currently defined aliases to a file": {
+        "prefix": "epal",
+        "body": [
+            "Export-Alias"
+        ]
+    },
+    "Export-Csv: Converts objects into a series of character-separated value (CSV) strings and saves the strings to a file": {
+        "prefix": "epcsv",
+        "body": [
+            "Export-Csv"
+        ]
+    },
+    "Export-PSSession: Exports commands from another session and saves them in a PowerShell module": {
+        "prefix": "epsn",
+        "body": [
+            "Export-PSSession"
+        ]
+    }, 
+    "Enter-PSSession: Uses a customized view to format the output": {
+        "prefix": "etsn",
+        "body": [
+            "Enter-PSSession"
+        ]
+    },
+    "Exit-PSSession: Ends an interactive session with a remote computer": {
+        "prefix": "exsn",
+        "body": [
+            "Exit-PSSession"
+        ]
+    },
+    "Format-Custom: Uses a customized view to format the output": {
+        "prefix": "fc",
+        "body": [
+            "Format-Custom"
+        ]
+    },
+    "Format-Hex: Displays a file or other input as hexadecimal": {
+        "prefix": "fhx",
+        "body": [
+            "Format-Hex"
+        ]
+    },
+    "Format-List: Formats the output as a list of properties in which each property appears on a new line": {
+        "prefix": "fl",
+        "body": [
+            "Format-List"
+        ]
+    },
+    "Format-Table: Formats the output as a table": {
+        "prefix": "ft",
+        "body": [
+            "Format-Table"
+        ]
+    },
+    "Format-Wide: Formats objects as a wide table that displays only one property of each object": {
+        "prefix": "fw",
+        "body": [
+            "Format-Wide"
+        ]
+    },
+    "Get-Alias: Gets the aliases for the current session": {
+        "prefix": "gal",
+        "body": [
+            "Get-Alias"
+        ]
+    },
+    "Get-PSBreakpoint: Gets the breakpoints that are set in the current session": {
+        "prefix": "gbp",
+        "body": [
+            "Get-PSBreakpoint"
+        ]
+    },
+    "Get-Clipboard: Gets the contents of the clipboard": {
+        "prefix": "gcb",
+        "body": [
+            "Get-Clipboard"
+        ]
+    },
+    "Get-Command: Gets all commands": {
+        "prefix": "gcm",
+        "body": [
+            "Get-Command"
+        ]
+    },
+    "Get-PSCallStack: Displays the current call stack": {
+        "prefix": "gcs",
+        "body": [
+            "Get-PSCallStack"
+        ]
+    },
+    "Get-PSDrive: Gets drives in the current session": {
+        "prefix": "gdr",
+        "body": [
+            "Get-PSDrive"
+        ]
+    },
+    "Get-History: Gets a list of the commands entered during the current session": {
+        "prefix": ["ghy","h","history"],
+        "body": [
+            "Get-History"
+        ]
+    },
+    "Get-Item: Gets the item at the specified location": {
+        "prefix": "gi",
+        "body": [
+            "Get-Item"
+        ]
+    },
+    "Get-ComputerInfo: Gets a consolidated object of system and operating system properties": {
+        "prefix": "gin",
+        "body": [
+            "Get-ComputerInfo"
+        ]
+    },
+    "Get-Job: Gets PowerShell background jobs that are running in the current session": {
+        "prefix": "gjb",
+        "body": [
+            "Get-Job"
+        ]
+    },
+    "Get-Member: Gets the properties and methods of objects": {
+        "prefix": "gm",
+        "body": [
+            "Get-Member"
+        ]
+    },
+    "Get-Module: List the modules imported in the current session or that can be imported from the PSModulePath": {
+        "prefix": "gmo",
+        "body": [
+            "Get-Module"
+        ]
+    },
+    "Get-ItemProperty: Gets the properties of a specified item": {
+        "prefix": "gp",
+        "body": [
+            "Get-ItemProperty"
+        ]
+    },
+    "Get-ItemPropertyValue: Gets the value for one or more properties of a specified item": {
+        "prefix": "gpv",
+        "body": [
+            "Get-ItemPropertyValue"
+        ]
+    },
+    "Group-Object: Groups objects that contain the same value for specified properties": {
+        "prefix": "group",
+        "body": [
+            "Group-Object"
+        ]
+    },
+    "Get-PSSession: Gets the PowerShell sessions on local and remote computers": {
+        "prefix": "gsn",
+        "body": [
+            "Get-PSSession"
+        ]
+    },
+    "Get-Service: Gets the services on the computer": {
+        "prefix": "gsv",
+        "body": [
+            "Get-Service"
+        ]
+    },
+    "Get-TimeZone: Gets the current time zone or a list of available time zones": {
+        "prefix": "gtz",
+        "body": [
+            "Get-TimeZone"
+        ]
+    },
+    "Get-Unique: Returns unique items from a sorted list": {
+        "prefix": "gu",
+        "body": [
+            "Get-Unique"
+        ]
+    },
+    "Get-Variable: Gets the variables in the current console": {
+        "prefix": "gv",
+        "body": [
+            "Get-Variable"
+        ]
+    },
+    "Invoke-Command: Runs commands on local and remote computers": {
+        "prefix": "icm",
+        "body": [
+            "Invoke-Command"
+        ]
+    },
+    "Invoke-Expression: Runs commands or expressions on the local computer": {
+        "prefix": "iex",
+        "body": [
+            "Invoke-Expression"
+        ]
+    },
+    "Invoke-History: Runs commands from the session history": {
+        "prefix": "ihy",
+        "body": [
+            "Invoke-History"
+        ]
+    },
+    "Invoke-Item: Performs the default action on the specified item": {
+        "prefix": "ii",
+        "body": [
+            "Invoke-Item"
+        ]
+    },
+    "Import-Alias: Imports an alias list from a file": {
+        "prefix": "ipal",
+        "body": [
+            "Import-Alias"
+        ]
+    },
+    "Import-Csv: Creates table-like custom objects from the items in a character-separated value (CSV) file": {
+        "prefix": "ipcsv",
+        "body": [
+            "Import-Csv"
+        ]
+    },
+    "Import-Module: Adds modules to the current session":{
+        "prefix": ["import","ipmo"],
+        "body": [
+            "Import-Module"
+        ]
+    },
+    "Import-PSSession: Imports commands from another session into the current session": {
+        "prefix": "ipsn",
+        "body": [
+            "Import-PSSession"
+        ]
+    },
+    "Invoke-RestMethod: Sends an HTTP or HTTPS request to a RESTful web service": {
+        "prefix": "irm",
+        "body": [
+            "Invoke-RestMethod"
+        ]
+    },
+    "powershell_ise.exe": {
+        "prefix": "ise",
+        "body": [
+            "powershell_ise.exe"
+        ]
+    },
+    "Out-Printer: Sends output to a printer": {
+        "prefix": "lp",
+        "body": [
+            "Out-Printer"
+        ]
+    },
+    "New-Item -ItemType Directory: Creates a new folder": {
+        "prefix": ["md","mkdir"],
+        "body": [
+            "New-Item -ItemType Directory "
+        ]
+    },
+    "Measure-Object: Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text": {
+        "prefix": "measure",
+        "body": [
+            "Measure-Object"
+        ]
+    },
+    "Move-Item: Moves an item from one location to another.Also be used to rename item": {
+        "prefix": ["mv","move"],
+        "body": [
+            "Move-Item "
+        ]
+    },
+    "New-Alias: Creates a new alias": {
+        "prefix": "nal",
+        "body": [
+            "New-Alias"
+        ]
+    },
+    "New-PSDrive: Creates temporary and persistent drives that are associated with a location in an item data store": {
+        "prefix": "mount",
+        "body": [
+            "New-PSDrive"
+        ]
+    },
+    "New-Item: Creates a new file": {
+        "prefix": ["ni","touch"],
+        "body": [
+            "New-Item "
+        ]
+    },
+    "Start-Sleep: Suspends the activity in a script or session for the specified period of time": {
+        "prefix": "sleep",
+        "body": [
+            "Start-Sleep"
+        ]
+    },
+    "Get-Location: Gets information about the current working location or a location stack": {
+        "prefix": ["pwd","gl"],
+        "body": [
+            "Get-Location"
+        ]
+    },
+    "Stop-Process: Stops one or more running processes": {
+        "prefix": ["kill","spps"],
+        "body": [
+            "Stop-Process"
+        ]
+    },
+    "Get-Process: Gets the processes that are running on the local computer": {
+        "prefix": ["ps","gps"],
+        "body": [
+            "Get-Process"
+        ]
+    },
+    "Set-Content: Writes new content or replaces existing content in a file": {
+        "prefix": "sc",
+        "body": [
+            "Set-Content"
+        ]
+    },
+    "New-Module: Creates a new dynamic module that exists only in memory": {
+        "prefix": "nmo",
+        "body": [
+            "New-Module"
+        ]
+    },
+    "New-PSSessionConfigurationFile: Creates a file that defines a session configuration": {
+        "prefix": "npssc",
+        "body": [
+            "New-PSSessionConfigurationFile"
+        ]
+    },
+    "New-PSSession: Creates a persistent connection to a local or remote computer": {
+        "prefix": "nsn",
+        "body": [
+            "New-PSSession"
+        ]
+    },
+    "New-Variable: Creates a new variable": {
+        "prefix": "nv",
+        "body": [
+            "New-Variable"
+        ]
+    },
+    "Out-GridView: Sends output to an interactive table in a separate window": {
+        "prefix": "ogv",
+        "body": [
+            "Out-GridView"
+        ]
+    },
+    "Out-Host: Sends output to the command line": {
+        "prefix": "oh",
+        "body": [
+            "Out-Host"
+        ]
+    },
+    "Pop-Location: Changes the current location to the location most recently pushed onto the stack": {
+        "prefix": "popd",
+        "body": [
+            "Pop-Location"
+        ]
+    },
+    "Push-Location: Adds the current location to the top of a location stack": {
+        "prefix": "pushd",
+        "body": [
+            "Push-Location"
+        ]
+    },
+    "Remove-PSBreakpoint: Deletes breakpoints from the current console": {
+        "prefix": "rbp",
+        "body": [
+            "Remove-PSBreakpoint"
+        ]
+    },
+    "Receive-Job: Gets the results of the PowerShell background jobs in the current session": {
+        "prefix": "rcjb",
+        "body": [
+            "Receive-Job"
+        ]
+    },
+    "Receive-PSSession: Gets results of commands in disconnected sessions": {
+        "prefix": "rcsn",
+        "body": [
+            "Receive-PSSession"
+        ]
+    },
+    "Remove-PSDrive: Deletes temporary PowerShell drives and disconnects mapped network drives": {
+        "prefix": "rdr",
+        "body": [
+            "Remove-PSDrive"
+        ]
+    },
+    "Remove-Job: Deletes a PowerShell background job": {
+        "prefix": "rjb",
+        "body": [
+            "Remove-Job"
+        ]
+    },
+    "Remove-Module: Removes modules from the current session": {
+        "prefix": "rmo",
+        "body": [
+            "Remove-Module"
+        ]
+    },
+    "Rename-Item: Renames an item in a PowerShell provider namespace": {
+        "prefix": "rni",
+        "body": [
+            "Rename-Item"
+        ]
+    },
+    "Rename-ItemProperty: Renames a property of an item": {
+        "prefix": "rnp",
+        "body": [
+            "Rename-ItemProperty"
+        ]
+    },
+    "Remove-ItemProperty: Deletes the property and its value from an item": {
+        "prefix": "rp",
+        "body": [
+            "Remove-ItemProperty"
+        ]
+    },
+    "Remove-PSSession: Closes one or more PowerShell sessions (PSSessions)": {
+        "prefix": "rsn",
+        "body": [
+            "Remove-PSSession"
+        ]
+    },
+    "Remove-Variable: Deletes a variable and its value": {
+        "prefix": "rv",
+        "body": [
+            "Remove-Variable"
+        ]
+    },
+    "Resolve-Path: Resolves the wildcard characters in a path, and displays the path contents": {
+        "prefix": "rvpa",
+        "body": [
+            "Resolve-Path"
+        ]
+    },
+    "Start-Job: Starts a PowerShell background job": {
+        "prefix": "sajb",
+        "body": [
+            "Start-Job"
+        ]
+    },
+    "Set-Alias: Creates or changes an alias for a cmdlet or other command in the current PowerShell session": {
+        "prefix": "sal",
+        "body": [
+            "Set-Alias"
+        ]
+    },
+    "Start-Process: Starts one or more processes on the local computer": {
+        "prefix": ["saps","start"],
+        "body": [
+            "Start-Process"
+        ]
+    },
+    "Start-Service: Starts one or more stopped services": {
+        "prefix": "sasv",
+        "body": [
+            "Start-Service"
+        ]
+    },
+    "Set-PSBreakpoint: Sets a breakpoint on a line, command, or variable": {
+        "prefix": "sbp",
+        "body": [
+            "Set-PSBreakpoint"
+        ]
+    },
+    "Set-Clipboard: Sets the contents of the clipboard": {
+        "prefix": "scb",
+        "body": [
+            "Set-Clipboard"
+        ]
+    },
+    "Select-Object: Selects objects or object properties": {
+        "prefix": "select",
+        "body": [
+            "Select-Object"
+        ]
+    },
+    "Set-Variable: Sets the value of a variable. Creates the variable if one with the requested name does not exist": {
+        "prefix": ["set","sv"],
+        "body": [
+            "Set-Variable"
+        ]
+    },
+    "Show-Command: Displays PowerShell command information in a graphical window": {
+        "prefix": "shcm",
+        "body": [
+            "Show-Command"
+        ]
+    },
+    "Set-Item: Changes the value of an item to the value specified in the command": {
+        "prefix": "si",
+        "body": [
+            "Set-Item"
+        ]
+    },
+    "Select-String: Finds text in strings and files": {
+        "prefix": "sls",
+        "body": [
+            "Select-String"
+        ]
+    },
+    "Sort-Object: Sorts objects by property values": {
+        "prefix": "sort",
+        "body": [
+            "Sort-Object"
+        ]
+    },
+    "Set-ItemProperty: Creates or changes the value of a property of an item": {
+        "prefix": "sp",
+        "body": [
+            "Set-ItemProperty"
+        ]
+    },
+    "Stop-Job: Stops a PowerShell background job": {
+        "prefix": "spjb",
+        "body": [
+            "Stop-Job"
+        ]
+    },
+    "Stop-Service: Stops one or more running services": {
+        "prefix": "spsv",
+        "body": [
+            "Stop-Service"
+        ]
+    },
+    "Set-TimeZone: Sets the system time zone to a specified time zone": {
+        "prefix": "stz",
+        "body": [
+            "Set-TimeZone"
+        ]
+    },
+    "Tee-Object: Saves command output in a file or variable and also sends it down the pipeline": {
+        "prefix": "tee",
+        "body": [
+            "Tee-Object"
+        ]
+    },
+    "Trace-Command: Configures and starts a trace of the specified expression or command": {
+        "prefix": "trcm",
+        "body": [
+            "Trace-Command"
+        ]
+    },
+    "Where-Object: Selects objects from a collection based on their property values": {
+        "prefix": "where",
+        "body": [
+            "Where-Object"
+        ]
+    },
+    "Wait-Job: Waits until one or all of the PowerShell jobs running in the session are in a terminating state": {
+        "prefix": "wjb",
+        "body": [
+            "Wait-Job"
+        ]
+    }
+}
