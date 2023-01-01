@@ -1,5 +1,7 @@
 # PowerShell Snippets for VSCode
-This is a collection of PowerShell Snippets for VSCode.
+This is a collection of PowerShell Snippets for VSCode.  
+
+English | [简体中文](README-CN.md)
 
 ## Description
 The Snippets are based on the built-in Alias of PowerShell5.1.  
