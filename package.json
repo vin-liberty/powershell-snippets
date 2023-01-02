@@ -2,7 +2,7 @@
   "name": "powershell-snippets",
   "displayName": "PowerShell Snippets",
   "description": "A snippet for PowerShell",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "repository": "https://github.com/vin-liberty/powershell-snippets",
   "license": "The Unlicense",
   "publisher": "vin-liberty",

@@ -3,12 +3,13 @@
 
 [English](README.md) | 简体中文
 
+![GIF showing how to use this extension](img/demonstration.gif)
+
 ## 介绍
----
 代码片段基于PowerShell5.1的内置别名设置。  
 如果你不知道PowerShell中有那些内置别名，你可以在PowerShell中使用 Get-Alias 命令查看所有内置别名。
 
-一些别名没有被采用为代码片段。因为我觉得这些别名不会在`ps1`脚本文件中用到，比如`man`和`help`。另一部分是别名基于的命令在PowerShell 7中已被删除，包括命令`Suspend-Job`，`Set-WmiInstance`, `Invoke-WmiMethod`。
+一些别名没有被采用为代码片段。因为我觉得这些别名不会在`ps1`脚本文件中用到，比如`man`。另一部分是别名基于的命令在PowerShell 7中已被删除，包括命令`Suspend-Job`，`Set-WmiInstance`, `Invoke-WmiMethod`。
 
 除了PowerShell中内置Alias，我还添加了一些**不属于PowerShell内置Alias中的代码片段**。如下：
 |Prefix|Body|
@@ -20,6 +21,7 @@
 |warning|Write-Warning|
 |error|Write-Error|
 |import|Import-Moodule|
+|date|Get-Date|
 
 **所有代码片段如下：**
 |Prefix|Body|
@@ -147,11 +149,9 @@
 |wjb|Wait-Job|
 
 ## 使用
----
 在VsCode中创建或打开`ps1`或者`psm1`后缀文件，插件会自动生效。
 
 ## 反馈
----
 邮箱：`zbvin@outlook.com`。  
 <a href="https://github.com/vin-liberty/powershell-snippets">GitHub</a>  
 <a href="https://marketplace.visualstudio.com/items?itemName=vin-liberty.powershell-snippets&ssr=false#review-details">Vscode Marketplace</a>。  

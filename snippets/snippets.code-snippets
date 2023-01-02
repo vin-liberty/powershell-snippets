@@ -712,5 +712,11 @@
         "body": [
             "Wait-Job"
         ]
+    },
+    "Get-Date: Gets the current date and time": {
+        "prefix": ["gd","date"],
+        "body": [
+            "Get-Date"
+        ]
     }
 }

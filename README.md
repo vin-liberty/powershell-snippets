@@ -1,13 +1,15 @@
 # PowerShell Snippets for VSCode
-This is a collection of PowerShell Snippets for VSCode.  
+This is a collection of PowerShell Snippets for VSCode.
 
 English | [简体中文](README-CN.md)
+
+![GIF showing how to use this extension](img/demonstration.gif)
 
 ## Description
 The Snippets are based on the built-in Alias of PowerShell5.1.  
 You can use `Get-Alias` to view all built-in Alias in PowerShell if you don't know what Alias are built-in.
 
-Some Alias are not adopted as Snippets. Some are not so useful in `ps1` script files such as `man` and `help`. And the other part is that the commands that Alias is based on have been removed in PowerShell 7 such as `Suspend-Job`，`Set-WmiInstance`, `Invoke-WmiMethod`.
+Some Alias are not adopted as Snippets. Some are not so useful in `ps1` script files such as `man`. And the other part is that the commands that Alias is based on have been removed in PowerShell 7 such as `Suspend-Job`，`Set-WmiInstance`, `Invoke-WmiMethod`.
 
 Except for the built-in Alias in PowerShell, I also added some code snippets that are **not built-in Alias in PowerShell**. As follows:
 
@@ -20,6 +22,7 @@ Except for the built-in Alias in PowerShell, I also added some code snippets tha
 |warning|Write-Warning|
 |error|Write-Error|
 |import|Import-Moodule|
+|date|Get-Date|
 
 **All Snippets** are as follows:
 |Prefix|Body|
@@ -149,11 +152,9 @@ Except for the built-in Alias in PowerShell, I also added some code snippets tha
 Hopefully it will be helpful to you.  
 
 ## Usage
----
 Create or open a file with the `ps1` or `psm1` suffix in VSCode, and the plugin will take effect automatically.
 
 ## Feedback
----
 If you have any questions or suggestions, please feel free to contact me.  
 Email address: `zbvin@outlook.com`.   
 <a href="https://github.com/vin-liberty/powershell-snippets">GitHub</a>  
